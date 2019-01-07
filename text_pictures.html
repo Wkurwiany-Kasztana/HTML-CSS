@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tekst i obrazy</title>
+<meta charset=utf-8>
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Tekst i obrazy</h1>
+		żźć
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znaczniki &lt;b&gt, &lt;s&gt, &lt;i&gt, &lt;u&gt</h3>
+		<div class="console_look">
+			Witaj! &lt;s&gt;przyjacielu&lt;/s&gt;<br>
+			Witaj! &lt;i&gt;przyjacielu&lt;/i&gt;&lt;!--&lt;em&gt;--&gt;<br>
+			Witaj! &lt;u&gt;przyjacielu&lt;/u&gt;<br>
+			Witaj! &lt;b&gt;przyjacielu&lt;/b&gt;&lt;!--&lt;strong&gt;--&gt;
+		</div>
+		Witaj! <s>przyjacielu</s><br>
+		Witaj! <i>przyjacielu</i><!--<em>--><br>
+		Witaj! <u>przyjacielu</u><br>
+		Witaj! <b>przyjacielu</b><!--<strong>--><br>
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znacznik &lt;font&gt</h3>
+		<div class="console_look">
+			Ala ma kota.<br>
+			&lt;font color=red size=3 face="Comic Sans MS"&gt;Ala ma kota.&lt;/font&gt;
+		</div>
+		Ala ma kota.<br>
+		<font color=red size=3 face="Comic Sans MS">Ala ma kota.</font>
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znacznik &lt;sup&gt, &lt;sub&gt</h3>
+		<div class="console_look">
+			17&lt;sup&gt;30&lt;/sup&gt;<br>
+			H&lt;sub&gt;2&lt;/sub&gt;0
+		</div>
+		17<sup>30</sup><br>
+		H<sub>2</sub>0
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znacznik &lt;p&gt </h3>
+		<div class="console_look">
+			&lt;p align=right&gt; Lorem ipsum dolor sit amet...&lt;/p&gt;<br>
+			&lt;p align=left&gt;Proin eu pellentesque felis...&lt;/p&gt;<br>
+			&lt;p align=justify&gt;In tincidunt mauris quam...&lt;/p&gt;<br>
+			&lt;p align=center&gt;In non ornare ipsum, ut placerat...&lt;/p&gt;
+		</div>
+		<p align=right> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut imperdiet, felis ut viverra rhoncus, enim massa porttitor metus, tincidunt volutpat velit magna nec ipsum. Nunc gravida orci at consectetur varius. Morbi a tortor id urna sodales hendrerit. Nulla mauris arcu, commodo ac velit quis, ornare ornare urna. In tellus arcu, sollicitudin nec sagittis eget, semper vel leo. In ac quam ut justo semper elementum. Curabitur accumsan volutpat massa, eu convallis leo euismod ut. Mauris tempor vel ligula sit amet tempus.</p>
+		<p align=left>Proin eu pellentesque felis, nec lacinia nibh. Quisque vitae gravida mauris. Suspendisse placerat nisl sed condimentum cursus. Pellentesque iaculis leo eget nibh fringilla ullamcorper. Morbi mollis dolor id massa fringilla, a tristique lectus blandit. Etiam pretium tincidunt rhoncus. Duis a auctor felis, nec feugiat lorem. Integer maximus vel sem tincidunt maximus. Vestibulum fringilla luctus turpis. Suspendisse at tempor mauris, eu placerat tellus. Aliquam placerat urna placerat, maximus lectus eget, ultricies tortor. In hac habitasse platea dictumst. Nunc id maximus diam.</p>
+		<p align=justify>In tincidunt mauris quam, a egestas nisl viverra semper. Integer pretium hendrerit nunc, vitae ultricies purus interdum at. Vestibulum non eros ac nunc elementum ultricies at vel ipsum. Praesent et massa id libero auctor gravida. Suspendisse potenti. Nulla aliquam felis id varius ultricies. Maecenas fringilla tempus elit, eget commodo justo volutpat non. Sed libero neque, rutrum et pulvinar euismod, dapibus eget erat. Integer ultrices metus imperdiet posuere ultrices.</p>
+		<p align=center>In non ornare ipsum, ut placerat nibh. Donec nec enim gravida, mollis dui et, convallis tortor. Mauris neque dui, imperdiet a molestie eu, aliquet ultricies ex. Aliquam blandit ornare velit, a aliquet eros finibus id. Nulla auctor ultricies blandit. Donec vestibulum vel mauris a lacinia. Cras tincidunt libero quis tincidunt consectetur.</p>
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znacznik &lt;a&gt </h3>
+		<div class="console_look">
+			&lt;a href="http://informatyka-wisniowa.prv.pl/"&gt;Link do informatyka-wisniowa.prv.pl&lt;/a&gt;<br>
+			&lt;a href="http://informatyka-wisniowa.prv.pl/" target="_blank"&gt;Link otwierany w nowej karcie&lt;/a&gt;
+		</div>
+		<a href="http://informatyka-wisniowa.prv.pl/">Link do informatyka-wisniowa.prv.pl</a> <br>
+		<a href="http://informatyka-wisniowa.prv.pl/" target="_blank">Link otwierany w nowej karcie</a>
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Zasady umieszczania obrazów na stronach html</h3>
+		<ol>
+			<li>Odpowiedni format (jpg, png, gif)</li>
+			<li>Odpowiednie wymiary (obrazy powinny mieć takie wymiary jak te, które będą miały wyświetlane na stronie)</li>
+			<li>72 ppi</li>
+			<li>Wszystkie obrazy i media umieszczamy w folderach</li>
+		</ol>
+		<hr size=2 width=75% color=#0099ff>
+		<h3>Znacznik &lt;img&gt </h3>
+		<div class="console_look">
+			&lt;img src=img/kot.jpg width=300px alt="Tu powinno być zdjęcie kota"&gt;
+		</div>
+		<img src=img/kot.jpg width=300px alt="Tu powinno być zdjęcie kota">
+	</div>
+</body>
+</html> 
