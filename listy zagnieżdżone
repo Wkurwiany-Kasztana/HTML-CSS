@@ -1,0 +1,37 @@
+<ol type=I>
+	<li>Ssaki
+		<ol type=a>
+			<li>Psy
+				<ul type=square>
+					<li>jaminik</li>
+					<li>dog</li>
+					<li>owczarek niemiecki</li>
+				</ul>
+			</li>
+			<li>Koty
+				<ul type=circle>
+					<li>pers</li>
+					<li>dachowiec</li>
+				</ul>
+			</li>
+		</ol>
+	</li>
+	<li>Ptaki
+		<ol type=a>
+			<li>nieloty
+				<ul type=circle>
+					<li>pingwin</li>
+					<li>struś</li>
+				</ul>
+			</li>
+			<li>latające
+				<ul>
+					<li>paw</li>
+					<li>sroka</li>
+					<li>wrona</li>
+				</ul>
+			</li>
+		</ol>
+	</li>
+	<li>Inne</li>
+</ol>
